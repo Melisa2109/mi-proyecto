@@ -1,12 +1,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
 
+
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
 }
+
 body{
     background-color:  #fbfbfb;
     font-family: "Lato", sans-serif; 
@@ -16,9 +19,11 @@ body{
     line-height: 1.2;
     min-height: 100vh;
 }
+
 .logo{
     width: 120px;
 }
+
 header{
     display: flex;
     flex-direction: row;
@@ -32,18 +37,22 @@ header{
     background-color: #fbfbfb;
     box-shadow: 0 3px 10px -5px #5f5f5f;
 }
+
 #menu-principal{
     list-style: none;
     display: flex;    
     font-size: 20px;
 }
+
 .menu-item a {
     text-decoration: none;
     padding: 20px
 }
+
 .menu-item a:hover {
     background-color: #e7bee0;
 }
+
 section {
     display: flex;
     align-items: center;
@@ -51,71 +60,79 @@ section {
     scroll-margin-top: 100px;
     min-height: 100vh;
 }
+
 ul {
     list-style: none;
 }
-.gato{
+
+.autofoto{
     width: 400px;
     border-radius: 80%;
     margin: 40px;
     float: left;
 }
+
 h1{
     display: flex;
     justify-content: center;
     font-size:  48px;
-    
-
 }
+
 p{
     padding-top: 20px;
-    padding-bottom: 20px;
-    
+    padding-bottom: 20px;    
 }
+
 #button{
     font-size: 20px;
     background-color:  #af599e;
     color: #fbfbfb;
     padding: 2%;
-    border-radius: 25%;
+    border-radius: 50px;
 }
+
 a {
     text-decoration: none;
     color: inherit;
 }
 
-#Contacto{
+#contacto{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
-#Logo-1, #Logo-2, #Logo-3{
+#logo-1, #logo-2, #logo-3{
 width: 100px;
 padding: 10px;
 margin-inline: 50px;
 }
 
-.Logos{
+.logos{
+    padding-top: 70px;
     display: flex;
     flex-direction: row;
     display: inline-block;
     justify-content: space-around;
 }
 
-.Logos a :hover{
+.logos a :hover{
     background-color: #e7bee0;
 }
 
-#contacto{
-    padding: 60px;
-    margin: 10%;
+#contactos{
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
     background-color:  #e7bee0;
+    width: 100vh;
 }
 
 h2{
     font-size: 32px;
     text-align: center;
 }
+
 .parrafo-2{
     text-align: center;
 }
